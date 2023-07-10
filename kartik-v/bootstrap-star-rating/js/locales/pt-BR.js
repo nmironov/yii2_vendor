@@ -6,7 +6,7 @@
  *
  * NOTE: this file must be saved in UTF-8 encoding.
  *
- * bootstrap-star-rating v4.1.2
+ * bootstrap-star-rating v4.1.3
  * http://plugins.krajee.com/star-rating
  *
  * Copyright: 2013 - 2021, Kartik Visweswaran, Krajee.com
@@ -39,6 +39,13 @@
             4.5: 'Quatro Estrelas e Meia',
             5: 'Cinco Estrelas'
         },
+        starTitles: {
+            1: 'Uma Estrela',
+            2: 'Duas Estrelas',
+            3: 'Três Estrelas',
+            4: 'Quatro Estrelas',
+            5: 'Cinco Estrelas'
+        },        
         clearButtonTitle: 'Limpar',
         clearCaption: 'Não Avaliado'
     };
