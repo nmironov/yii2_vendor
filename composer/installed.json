@@ -2950,6 +2950,61 @@
             "install-path": "../kartik-v/yii2-widgets"
         },
         {
+            "name": "kosoukhov/ldap",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kosoukhov/yii2-ldap.git",
+                "reference": "869cea713598d3c69129f4fd672d31b127f1cab1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kosoukhov/yii2-ldap/zipball/869cea713598d3c69129f4fd672d31b127f1cab1",
+                "reference": "869cea713598d3c69129f4fd672d31b127f1cab1",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "2.0.*"
+            },
+            "time": "2018-03-07T10:29:38+00:00",
+            "default-branch": true,
+            "type": "yii2-extension",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "kosoukhov\\ldap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Kosoukhov",
+                    "email": "kosoukhov@gmail.com"
+                }
+            ],
+            "description": "Authorize, search users, get user groups and other from LDAP",
+            "keywords": [
+                "Authentication",
+                "active-directory",
+                "authorization",
+                "extension",
+                "ldap",
+                "ldap-authentication",
+                "user-management",
+                "yii2",
+                "yii2-extension"
+            ],
+            "support": {
+                "issues": "https://github.com/kosoukhov/ldap/issues",
+                "source": "https://github.com/kosoukhov/ldap"
+            },
+            "install-path": "../kosoukhov/ldap"
+        },
+        {
             "name": "myclabs/deep-copy",
             "version": "1.x-dev",
             "version_normalized": "1.9999999.9999999.9999999-dev",

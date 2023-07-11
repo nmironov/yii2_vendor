@@ -499,6 +499,17 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'kosoukhov/ldap' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '869cea713598d3c69129f4fd672d31b127f1cab1',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../kosoukhov/ldap',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
         'myclabs/deep-copy' => array(
             'pretty_version' => '1.x-dev',
             'version' => '1.9999999.9999999.9999999-dev',

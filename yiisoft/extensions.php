@@ -256,4 +256,13 @@ return array (
       '@yii/authclient' => $vendorDir . '/yiisoft/yii2-authclient/src',
     ),
   ),
+  'kosoukhov/ldap' => 
+  array (
+    'name' => 'kosoukhov/ldap',
+    'version' => 'dev-master',
+    'alias' => 
+    array (
+      '@kosoukhov/ldap' => $vendorDir . '/kosoukhov/ldap',
+    ),
+  ),
 );

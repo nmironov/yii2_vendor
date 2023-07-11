@@ -44,6 +44,7 @@ class ComposerStaticInitd44820b902b79c5610b0927de6d59d06
         ),
         'k' => 
         array (
+            'kosoukhov\\ldap\\' => 15,
             'kartik\\widgets\\' => 15,
             'kartik\\typeahead\\' => 17,
             'kartik\\touchspin\\' => 17,
@@ -189,6 +190,10 @@ class ComposerStaticInitd44820b902b79c5610b0927de6d59d06
         'yii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
+        ),
+        'kosoukhov\\ldap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/kosoukhov/ldap',
         ),
         'kartik\\widgets\\' => 
         array (
