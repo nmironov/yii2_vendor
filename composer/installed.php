@@ -1130,6 +1130,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'yiisoft/yii2-authclient' => array(
+            'pretty_version' => '2.2.14',
+            'version' => '2.2.14.0',
+            'reference' => '6bd4b4efc60db2b31bb957a473442900c704857e',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../yiisoft/yii2-authclient',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'yiisoft/yii2-bootstrap5' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
@@ -1180,6 +1189,17 @@
             'install_path' => __DIR__ . '/../yiisoft/yii2-gii',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'yiisoft/yii2-httpclient' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => 'e67aca8273f6a2b3c479203d34883d704a4ff4d7',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../yiisoft/yii2-httpclient',
+            'aliases' => array(
+                0 => '2.0.x-dev',
+            ),
+            'dev_requirement' => false,
         ),
         'yiisoft/yii2-symfonymailer' => array(
             'pretty_version' => '2.0.4',
